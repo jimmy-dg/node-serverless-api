@@ -29,7 +29,7 @@ functions:
       - http:
           path: /
           method: get
-          authorizer: aws_iam    
+          # authorizer: aws_iam    
 
 resources:
   # Cognito
